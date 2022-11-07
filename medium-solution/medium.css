@@ -1,0 +1,73 @@
+body {
+    color: rgb(50, 49, 48);
+    background: rgb(255, 255, 255);
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.chat-container {
+    margin: 1rem 0rem;
+    box-shadow: none;
+    border: 0.0625rem solid, rgba(0, 0, 0, .1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-bubble-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-bubble {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 0.5rem 1rem 0.625rem 1rem;
+    min-width: 6.25rem;
+    max-width: 50%;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    outline-width: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    background-color: rgb(243, 242, 241);
+}
+
+.chat-bubble.my-message {
+    align-self: flex-end;
+    background-color: rgb(199, 224, 244);
+}
+
+
+
+.chat-bubble-sender {
+    color: rgb(50, 49, 48);
+    font-weight: 600;
+    margin-bottom: 0.125rem;
+    margin-right: 0.75rem;
+    line-height: 1.3333;
+    font-size: 0.75rem;
+}
+
+.chat-bubble-date {
+    color: rgb(72, 70, 68);
+    font-size: 0.75rem;
+    line-height: 1.3333;
+}
+
+.chat-bubble-content {
+    color: rgb(50, 49, 48);
+}
