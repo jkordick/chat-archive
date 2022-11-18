@@ -29,10 +29,11 @@ What could be more advanced solutions with a higher User-Experience and a better
 * the expectation that it is only "adding a little css here and there and that should be easily done" is right as long as you do not expect a good solution with a good user experience
 * for such a use case I expect just a few people to use it, so I would not invest too much time in it and [easy v1](#Easy-Solution-v1), [easy v2](#Easy-Solution-v2) or [medium](#Medium-Solution) should be enough - effort and benefit must remain in proportion
 
-
-
-
-
-
+## Make a wish data structure
+Added a simplified desirable approach to the data structure. Not too far away from the inital example and good enough to make the styling easier.
+* moved sender and date together into a `<td>`
+* removed all (for this case) unnecessary additional tags 
+* if I am the sender of the message, added the `my-message` class to the `<td>` to style it properly
+* Note: if it would be needed that the recipients are in the data structure we could just `display: none` them - no blocker for the styling
 
 Example image by [Kellie Churchman via pexels](https://www.pexels.com/@kellie-churchman-371878/)
